@@ -13,7 +13,7 @@
   add_executable(Demo main.cc)
   ```
 
-  ​			编译与运行
+  编译与运行
 
   ```c
   $ cmake.
@@ -108,7 +108,7 @@
 
 - ## 安装
 
-  ```c
+  ```powershell
   # math/CMakeLists.txt
   ···
   install(TARGETS MathFunctions DESTINATION bin)
@@ -116,7 +116,7 @@
   ···
   ```
 
-  ```c
+  ```powershell
   # 原目录下的CMakeLists.txt
   ···
   install(TARGETS Demo DESTINATION bin)
@@ -124,7 +124,7 @@
   ···
   ```
 
-  ```c
+  ```powershell
   $ sudo make install
   $ ls /usr/local/bin
   Demo libMathFunctions.a
